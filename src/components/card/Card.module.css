@@ -1,0 +1,91 @@
+.container {
+    max-width: 250px;
+    height: 220px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+.container h3 {
+    font-size: 20px;
+    font-weight: 500    ;
+    margin: 0 0 0 20px;
+    display: inline-block;
+
+  }
+
+  
+ 
+
+.imgContainer {
+    overflow: hidden;
+
+}
+
+.imgContainer img {
+
+   transition: 0.5s;
+   height: 125px;
+}
+
+
+
+.imgContainer img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.technologies {
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+    
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .technologies li {
+  margin-left: 10px;
+  font-weight: bold;
+ }
+
+ #one {
+  color: rgb(106, 190, 205);
+ }
+ #two {
+ color: rgb(62, 84, 163);
+ }
+ #three {
+  color: rgb(207, 99, 144);
+ }
+
+ .days {
+    border: 1px solid rgb(170, 215, 66);
+    color: rgb(170, 215, 66);
+    display: flex;
+    font-weight: bold;
+    margin-right: 20px;
+    padding-left: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+   
+
+ }
+
+ .days div{
+  background-color: rgb(170, 215, 66);
+  color: white;
+  height: 100%;
+  margin-left: 10px;
+  padding: 0 5px;
+ }
