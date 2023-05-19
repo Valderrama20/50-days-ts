@@ -1,16 +1,16 @@
 import style from './Card.module.css'
 
 
-const Card = () => {
 
 
+const Card = ({data}:any) => {
 
   return <div className={style.container}>
           
         <div className={style.imgContainer}>
-            <img  src='https://res.cloudinary.com/dlwurkglp/image/upload/v1684265339/Captura_de_pantalla_2023-05-16_162728_w2re0r.png' alt="" />
+            <img  src={data.img} alt="" />
         </div>
-        <h3>expanding-cards</h3>
+        <h3>{data.name}</h3>
         <div className={style.details}>
         <ul className={style.technologies}>
           <li id={style.one} >HTML</li>
@@ -20,7 +20,7 @@ const Card = () => {
         <div className={style.days}>
           day
           <div>
-            1
+            {data.day}
           </div>
         </div>
           
