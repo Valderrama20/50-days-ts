@@ -1,0 +1,25 @@
+
+
+.container {
+    height: 50px ;
+    width: 100%;
+    border-bottom: 2px solid rgb(170, 215, 66);
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.container img {
+    height: 40px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
