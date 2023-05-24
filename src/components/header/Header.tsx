@@ -5,7 +5,7 @@ import style from './Header.module.css'
 
 const Header = () => {
     return <header className={style.container}>
-        <img src="../././public/50_days.png" alt="" />
+        <img src="../././50_days.png" alt="%0 days" />
     </header>
 }
 

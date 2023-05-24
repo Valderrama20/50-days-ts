@@ -3,12 +3,14 @@ import style from './Card.module.css'
 
 
 
-const Card = ({data}:any) => {
-
-  return <div className={style.container}>
+const Card = ({data}: any) => {
+  
+  const web = () =>  window.open(data.link)
+  
+  return <div className={style.container} onClick={web}>
           
         <div className={style.imgContainer}>
-            <img  src={data.img} alt="" />
+            <img  src={data.img} alt={data.name} />
         </div>
         <h3>{data.name}</h3>
         <div className={style.details}>
