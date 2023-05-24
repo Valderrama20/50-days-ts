@@ -1,17 +1,19 @@
 
- const enum status {pending,finished}
+const enum status {pending,finished}
 
-const DAYS = [
+const DAYS: object[] = [
     {
       day: "01",
       img: 'https://res.cloudinary.com/dlwurkglp/image/upload/v1684265339/Captura_de_pantalla_2023-05-16_162728_w2re0r.png',
       name: "Expanding Cards",
+      link: "https://dia-1.netlify.app",
       status: status.finished
     },
     {
       day: "02",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528590/Captura_de_pantalla_2023-05-19_172041_a8woi6.png",
       name: "Progress Steps",
+      link: "https://dia-2.netlify.app",
       status: status.finished
     },
     {
@@ -23,12 +25,14 @@ const DAYS = [
       day: "04",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528592/Captura_de_pantalla_2023-05-19_172123_xa43vt.png",
       name: "Hidden Search Widget",
+      link: "https://dia-4.netlify.app",
       status: status.finished
     },
     {
       day: "05",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528592/Captura_de_pantalla_2023-05-19_172142_h32qco.png",
       name: "Blurry Loading",
+      link: "https://dia-5.netlify.app",
       status: status.finished
     },
     {
@@ -40,30 +44,35 @@ const DAYS = [
       day: "07",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528591/Captura_de_pantalla_2023-05-19_172225_mytvqj.png",
       name: "Split Landing Page",
+      link: "https://dia-7.netlify.app",
       status: status.finished
     },
     {
       day: "08",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528591/Captura_de_pantalla_2023-05-19_172258_blutam.png",
       name: "Form Wave",
+      link: "https://dia-8.netlify.app",
       status: status.finished
     },
     {
       day: "09",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528590/Captura_de_pantalla_2023-05-19_172316_olqldr.png",
       name: "Sound Board",
+      link: "https://dia-9.netlify.app",
       status: status.finished
     },
     {
       day: "10",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528591/Captura_de_pantalla_2023-05-19_172343_s84gzg.png",
       name: "Dad Jokes",
+      link: "https://dia-10.netlify.app",
       status: status.finished
     },
     {
       day: "11",
       img: "https://res.cloudinary.com/dlwurkglp/image/upload/v1684528590/Captura_de_pantalla_2023-05-19_172400_fsgoaj.png",
       name: "Event Keycodes",
+      link: "https://dia-11.netlify.app",
       status: status.finished
     },
     {
