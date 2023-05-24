@@ -1,7 +1,15 @@
 
 const enum status {pending,finished}
 
-const DAYS: object[] = [
+interface day {
+   day: string,
+   img?: string,
+   name:string,
+   link?:string,
+   status: number
+}
+
+const DAYS: day[] = [
     {
       day: "01",
       img: 'https://res.cloudinary.com/dlwurkglp/image/upload/v1684265339/Captura_de_pantalla_2023-05-16_162728_w2re0r.png',
