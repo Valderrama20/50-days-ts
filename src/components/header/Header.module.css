@@ -4,6 +4,7 @@
     height: 50px ;
     width: 100%;
     border-bottom: 2px solid rgb(170, 215, 66);
+    background-color: white;
     display: flex;
     align-items: center;
     margin-bottom: 30px;
